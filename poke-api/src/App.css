@@ -1,0 +1,45 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+input {
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title button {
+  font-size: larger;
+}
+
+.displaypoke {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border: 1px solid #82838b;
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 3px 3px 16px rgb(76, 86, 100);
+  color: #292d38;
+  background-color: rgb(235, 233, 255);
+}
+
+.displaypoke img {
+  width: 300px;
+}
